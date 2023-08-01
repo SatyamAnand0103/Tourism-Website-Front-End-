@@ -1,0 +1,934 @@
+/*body{
+    background-image:url("images/log1.jpg");
+background-repeat:no-repeat;
+}*/
+#topic {
+display: block;
+width: 479px;
+margin: auto;
+}
+.containerfull{
+    overflow: hidden;
+    width: 1519px;
+    position: relative;
+    background-image: url(images/log1.jpg);
+    background-repeat: no-repeat;
+    height: 390vh;
+    margin-top: -7px;
+    margin-left: -8px;
+
+}
+
+
+#topic p {
+display: block;
+letter-spacing: 2px;
+text-align: center;
+font-size: 40px;
+text-shadow: 2px 2px 5px #2e2a2a;
+margin-top: 30px;
+margin-bottom: 26px;
+}
+#topic p:hover{
+ transform: scale(1.1); 
+}
+
+
+
+
+#image img{
+    padding-bottom:6px;
+    padding-top:13px;
+    padding-left:30px;
+    padding-right:30px;
+    background-color:rgb(45, 39, 73);
+    height: 50px;
+width: 157px;
+float: left;
+margin-top: -104px;
+margin-left: 268px;
+}
+#image img:hover{
+    transform: scale(1.1);
+    cursor:pointer;
+}
+
+
+#links{
+    display :block;
+    margin:auto;
+    padding:8px;
+    text-align:center;
+}
+#links a{
+        font-size:17px;
+    margin:14px;
+    padding:6px;
+    font-family: 'Slabo 27px', serif;
+    text-decoration:none;
+
+  }
+
+#links a:hover{
+        background-color: #004369;
+        color:white;
+        border-radius:40px;
+        transition: background-color 1s;
+        box-shadow: 3px 2px 4px darkcyan;
+
+}
+
+.fade:focus,
+.fade:active {
+background-color: black;
+transition: none;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 188px;
+    background-color: rgb(25 28 45);
+
+}
+
+#forcarrents{
+    display: flex;
+    position: absolute;
+    transform: translate(-8%);
+    top: 443px;
+    color:white;
+    visibility:hidden;
+}
+
+
+
+#fromwhere1 div.in{ 
+
+    padding-left: 11px;
+    margin: -11px;
+    margin-right: 19px;
+    
+}
+#fromwhere1 div.in input {
+    border:1px solid grey;
+    height: 44px;
+    width: 280px;
+    margin-top: 7px;
+    padding-left: 18px;
+    padding-right: 26px;
+    background-color: rgb(37 40 59);
+    color: grey;
+    
+
+}
+
+#fromwhere2 div.in{
+    padding-left: 11px;
+    margin: -11px;
+    margin-right: 19px;
+}
+#fromwhere2 div.in input {
+    border:1px solid grey;
+    height: 44px;
+    width: 280px;
+    margin-top: 7px;
+    padding-left: 18px;
+    padding-right: 26px;
+    background-color: rgb(37 40 59);
+    color: grey;
+
+}
+
+
+#fromwhere3 div.in{
+    padding-left: 11px;
+    margin: -11px;
+    margin-right: 19px;
+
+}
+#fromwhere3 div.in input {
+    border:1px solid grey;
+    height: 44px;
+    width: 280px;
+    margin-top: 7px;
+    padding-left: 18px;
+    padding-right: 26px;
+    background-color: rgb(37 40 59);
+    color: grey;
+
+}
+/* 
+---------------------------------------------------------------------------------------------------------------------
+*/
+
+#forcruises{
+
+    display: flex;
+    position: absolute;
+    transform: translate(-8%);
+    top: 443px;
+    color:white;
+visibility:hidden;
+}
+
+
+
+#fromwhere_31 div.in{ 
+    padding-left: 11px;
+    margin: -11px;
+    margin-right: 19px;
+    
+}
+#fromwhere_31 div.in input {
+    border:1px solid grey;
+    height: 44px;
+    width: 280px;
+    margin-top: 7px;
+    padding-left: 18px;
+    padding-right: 26px;
+    background-color: rgb(37 40 59);
+    color: grey;
+    
+
+}
+
+#fromwhere_32 div.in{
+    padding-left: 11px;
+    margin: -11px;
+    margin-right: 19px;
+}
+#fromwhere_32 div.in input {
+    border:1px solid grey;
+    height: 44px;
+    width: 280px;
+    margin-top: 7px;
+    padding-left: 18px;
+    padding-right: 26px;
+    background-color: rgb(37 40 59);
+    color: grey;
+
+}
+
+
+#fromwhere_33 div.in{
+    padding-left: 11px;
+    margin: -11px;
+    margin-right: 19px;
+
+}
+#fromwhere_33 div.in input {
+    border:1px solid grey;
+    height: 44px;
+    width: 280px;
+    margin-top: 7px;
+    padding-left: 18px;
+    padding-right: 26px;
+    background-color: rgb(37 40 59);
+    color: grey;
+
+}
+/*-------------------------------------------------------For Hotels------------------------------------------------------*/
+
+
+#forhotels{
+
+    display: flex;
+    position: absolute;
+    transform: translate(-8%);
+    top: 443px;
+    color:white;
+
+
+}
+
+
+
+#fromwhere_21 div.in{ 
+    padding-left: 11px;
+    margin: -11px;
+    margin-right: 19px;
+    
+}
+#fromwhere_21 div.in input {
+    border:1px solid grey;
+    height: 44px;
+    width: 280px;
+    margin-top: 7px;
+    padding-left: 18px;
+    padding-right: 26px;
+    background-color: rgb(37 40 59);
+    color: grey;
+    
+
+}
+
+#fromwhere_22 div.in{
+    padding-left: 11px;
+    margin: -11px;
+    margin-right: 19px;
+}
+#fromwhere_22 div.in input {
+    border:1px solid grey;
+    height: 44px;
+    width: 280px;
+    margin-top: 7px;
+    padding-left: 18px;
+    padding-right: 26px;
+    background-color: rgb(37 40 59);
+    color: grey;
+
+}
+
+
+#fromwhere_23 div.in{
+    padding-left: 11px;
+    margin: -11px;
+    margin-right: 19px;
+
+}
+#fromwhere_23 div.in input {
+    border:1px solid grey;
+    height: 44px;
+    width: 280px;
+    margin-top: 7px;
+    padding-left: 18px;
+    padding-right: 26px;
+    background-color: rgb(37 40 59);
+    color: grey;
+
+}
+
+/*----------------------------------------------------For Flights-------------------------------------------*/
+
+
+
+
+#forflights{
+
+    display: flex;
+    position: absolute;
+    transform: translate(-8%);
+    top: 470px;
+    color:white;
+    visibility:hidden;
+
+}
+
+
+#fromwhere_11 div.in{
+    margin-right: 16px;
+    color: white;
+    margin-top: -38px;
+    margin-left:68px;   
+
+
+}
+#fromwhere_11 div.in input {
+    border:1px solid grey;
+    height: 44px;
+    width: 280px;
+    margin-top: 7px;
+    padding-left: 18px;
+    padding-right: 26px;
+    background-color: rgb(37 40 59);
+    color: grey;
+    
+
+}
+
+
+
+
+
+#checkin div.in {
+    color: white;
+    padding-left: 4px;
+    margin-right: -2px;
+    margin-top: -43px;
+
+
+
+}
+#checkin  div.in input{
+    border:1px solid grey;
+    height: 44px;
+    width: 160px;
+    margin-top: 12px;
+    padding-left: 18px;
+    padding-right: 26px;
+    background-color: rgb(37 40 59);
+    color: grey;
+}
+
+#checkout div.in{
+    padding-left: 33px;
+    margin: -11px;
+    margin-right: 80px;
+    margin-top: -38px;
+    color: white;
+
+}
+#checkout div.in input {
+    border:1px solid grey;
+    height: 44px;
+    width: 160px;
+    margin-top: 7px;
+    padding-left: 18px;
+    padding-right: 26px;
+    background-color: rgb(37 40 59);
+    color: grey;
+}
+
+
+#guest div.in{
+    padding-left: 33px;
+    margin: -11px;
+    margin-left: -93px;
+    margin-top: -38px;
+    color: white;
+}
+
+
+#guest div.in input {
+    border:1px solid grey;
+    height: 44px;
+    width: 180px;
+    margin-top: 7px;
+    padding-left: 18px;
+    padding-right: 26px;
+    background-color: rgb(37 40 59);
+    color: grey;
+}
+
+
+
+.search1{
+    background-color: #FFDD00;
+    height: 48px;
+    width: 160px;
+    margin-top: 14px;
+    border-radius: 44px;
+    
+
+
+}
+.search1 p{
+    padding-left: 45px;
+    font-size: 16px;
+    color:aliceblue;
+
+}
+
+#search2{
+    background-color: #FFDD00;
+    height: 48px;
+    width: 160px;
+    margin-top:-10px;
+    border-radius: 44px;
+    margin-left: 40px;
+}
+#search2 p{
+    padding-left: 45px;
+    font-size: 16px;
+    color:aliceblue;
+
+}
+
+.search3{
+    background-color: #FFDD00;
+    height: 48px;
+    width: 160px;
+    margin-top: 14px;
+    border-radius: 44px;
+    
+
+
+}
+.search3 p{
+    padding-left: 45px;
+    font-size: 16px;
+    color:aliceblue;
+
+}
+
+.search4 {
+    background-color: #FFDD00;
+    height: 48px;
+    width: 160px;
+    margin-top: 14px;
+    border-radius: 44px;
+    
+
+
+}
+.search4 p{
+    padding-left: 53px;
+    font-size: 16px;
+    color:aliceblue;
+
+}
+
+.middllenew{
+    
+    text-align: center;
+    margin-top: 180px;
+    display: flex;
+    margin-left: 164px;
+
+
+}
+
+.flight,.cruises,.hotel,.carrents{
+
+    width: 80px;
+    background-color: #FFDD00;
+    font-size: 17px;
+    padding-top: 3px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    margin-left:2px;
+    height: 43px;
+
+
+}
+/*.hotel,.flight,.cruises,.carrents:hover{
+cursor:pointer;
+background-color :white;
+opacity:0.5;
+padding-right: 13px;
+padding-top: 5px;
+padding-left: 11px;
+padding-bottom: 6px;
+margin-left: 1px;
+ width: 67px;
+margin: -4px;
+display: inline-block;
+height: 38px;
+}*/
+
+ 
+div.hotelimage{
+padding:6px;   
+}
+div.hotelimage img{
+height:20px;
+width:15px;
+} 
+
+
+
+.detalings{
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    display: block;
+    margin-top: -25px;
+    height: 200px;
+margin-left:-10px;
+margin-right:-10px;
+
+}
+
+.detalings p{
+padding-top:31px;
+font-size:25px;
+
+}
+
+
+.detalings #detalings {
+    font-size: 15px;
+    width: 748px;
+    display: block;
+    margin: auto;
+}
+
+.attractimage{
+margin-left:-7px;
+height: 220px;
+}
+.attractimage1{
+
+margin-left:-7px;
+margin-bottom: 12px;;
+height: 220px;
+}
+.attractimage img{
+    height: 228px;
+    width: 383px;
+    margin-left: 9px;
+    margin-right: -18px;
+
+}
+
+.attractimage img:hover
+{
+cursor:pointer;
+ transform: scale(1.2); 
+ transition: 0.8s;
+
+}
+
+
+
+.attractimage1 img{
+height: 228px;
+width: 383px;
+margin-left: 9px;
+margin-right: -18px;
+
+
+}
+
+.attractimage1 img:hover{
+
+cursor:pointer;
+ transform: scale(1.2); 
+ transition: 0.5s;
+
+}
+
+.stuffs{
+    float: right;
+    text-align: center;
+    margin-left: 40px;
+    font-family: 'Satisfy', cursive;
+    font-size: 16px;
+    word-spacing: 10px;
+    letter-spacing: 4px;
+    margin-right: 60px;
+}
+
+div.stuffs h3:hover{
+cursor:pointer;
+ transform: scale(1.1); 
+}
+
+.whitebackground{
+background-color:white;
+margin-top:2px;
+height:500px;
+margin:auto;
+text-align:center;
+margin-top:-9px;
+
+
+}
+
+#whitebackground{
+    display: flex;
+    margin-left: 114px;
+
+
+    }
+.whitebackground img{
+height: 120px;
+width: 120px;
+margin-left: 119px;
+margin-top: 96px;
+padding-right: 37px;
+padding-left: 37px;
+}
+
+#whitebackground div {
+margin-left: 160px;
+margin-top: 17px;
+font-size: 20px;
+margin-right: 46px;
+}
+.contents{
+width: 161px;
+height: 169px;
+display:flex;
+
+}
+  .contents div{
+    margin-right: -67px;
+margin-left: 277px;
+margin-top:12px;
+}
+
+.satisfactoryguest{
+position: absolute;
+width: 721px;
+height: 85px;
+margin: auto;
+display: block;
+margin-top: 455px;
+font-size: 30px;
+margin-left: 393px;
+}
+.satisfactoryguest p{
+position:absolute;
+font-size: 15px;
+margin-top: 24px;
+
+}
+
+.arrow img{
+
+height: 30px;
+width: 30px;
+padding: 25px;
+display: inline-block;
+position: absolute;
+margin-top: 1075px;
+margin-left: 1407px;
+}
+
+.recentpost{
+background-image: url("images/sts.jpg");
+height: 584px;
+margin-top: 127px;
+
+}
+.recentpost img{
+    position: relative;
+    height: 584px;
+    width: 1526px;
+    opacity: 0.5;
+    margin-top: auto;
+    margin-left: -37px;
+}
+
+.beach img{
+position: absolute;
+height: 331px;
+width: 533px;
+margin-top: -302px;
+margin-left: 42px;
+}
+#beach {
+    margin-left: 1070px;
+    position: absolute;
+    height: 82px;
+    width: 85px;
+    border-radius: 42px;
+    margin-top: -164px;
+    background-color: white;
+}
+
+#beach img{
+height: 50px;
+width: 57px;
+margin-top: 16px;
+margin-left: -22px;
+}
+#beach:hover{
+transition: 0.5s;
+transform: scale(1.2); 
+
+}
+div.recentpost p{
+position: absolute;
+font-size: 90px;
+display: inline-block;
+margin-top: -463px;
+margin-left: 219px;
+color: #FFDD00;
+font-family: "Quicksand", Arial, sans-serif;
+font-weight:700;
+}
+div.recentpost #percent{
+position: absolute;
+font-size: 40px;
+display: inline-block;
+margin-top: -449px;
+margin-left: 317px;
+color: #FFDD00;
+font-family: "Quicksand", Arial, sans-serif;
+font-weight: 700;
+
+}
+
+div.recentpost h3{
+
+position: absolute;
+font-size: 33px;
+display: inline-block;
+margin-top: -996px;
+margin-left: -434px;
+color: #fff;
+font-family: "Quicksand", Arial, sans-serif;
+font-weight: 700;
+}
+
+
+div.recentpost h1{
+position: absolute;
+font-size: 56px;
+display: inline-block;
+margin-top: -952px;
+margin-left: -524px;
+color: #fff;
+font-family: "Quicksand", Arial, sans-serif;
+font-weight: 700;
+}
+
+
+
+div.recentpost div#hurryup{
+position: absolute;
+margin-top: -1028px;
+margin-left: -293px;
+font-weight: 400;
+font-size: 21px;
+color: white;
+font-family: 'Open Sans', sans-serif;
+}
+
+
+div.recentpost div#hurry{
+position: absolute;
+margin-top: -987px;
+margin-left: -319px;
+font-weight: 400;
+font-size: 16px;
+color: white;
+font-family: 'Open Sans', sans-serif;
+display: inline-block;
+width: 302px;
+
+}
+
+
+ #chatbot{
+    margin-top: -904px;
+    margin-left: -345px;
+    height: 42px;
+    position:relative;
+
+
+
+}
+#button1{
+ 
+    border-radius: 25px;
+    height: 43px;
+    width: 119px;
+    border: 2px solid white;
+    opacity: 0.5;
+    padding: 13px;
+
+
+}
+    
+
+
+#button2{
+
+    border-radius: 25px;
+    height: 43px;
+    width: 119px;
+    border: 2px solid white;
+    opacity: 0.5;
+    padding: 13px;
+
+}
+
+
+#button1:hover{
+    color:white;
+background-color:#FFDD00;
+opacity:1;
+}
+
+#button2:hover{
+color:white;
+background-color:#FFDD00;
+opacity:1;
+}
+
+.beach1 img{
+position: absolute;
+margin-left: -694px;
+margin-top: -31px;
+height: 227px;
+width: 330px;
+
+
+}
+
+.beach1 img:hover{
+
+transition: 0.5s;
+transform: scale(1.1); 
+
+
+}
+.beach2{
+
+position: absolute;
+height: 274px;
+width: 330px;
+margin-top: 176px;
+margin-left: 93px;
+padding-top: 28px;
+font-size: 24px;
+background-color:white;
+opacity:0.5;
+color: #008b90;
+font-family: bellefair,Georgia,times new roman,serif;
+box-shadow: 3px 2px 4px darkcyan;
+
+}
+.beach2 p{
+font-size: 15px;
+padding: 17px;
+color: grey;
+font-family: bellefair,Georgia,times new roman,serif;
+
+}
+.beach3 img{
+position: absolute;
+margin-left: -195px;
+margin-top: 30px;
+height: 227px;
+width: 330px;
+}
+.beach3 img:hover{
+transition: 0.5s;
+transform: scale(1.1);     
+}
+
+.beach3 p{
+position: absolute;
+height: 200px;
+width: 330px;
+margin-top: 62px;
+margin-left: 924px;
+padding-top: 28px;
+font-size: 24px;
+background-color: white;
+opacity: 0.5;
+color: #008b90;
+font-family: bellefair,Georgia,times new roman,serif;
+box-shadow: 3px 2px 4px darkcyan;
+
+}
+
+#beach111{
+display: inline-block;
+height: 100px;
+width: 278px;
+margin-top: 144px;
+float: right;
+margin-right: 260px;
+font-size: 15px;
+padding: 17px;
+color:color;
+font-family: bellefair,Georgia,times new roman,serif;
+}
+div #cruisesshow{
+display:flex;
+border:2px solid black;
+width:200px;
+}
+#forcruises{
+visibility: hidden;
+}

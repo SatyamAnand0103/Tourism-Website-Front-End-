@@ -1,0 +1,150 @@
+<!Doctype html>
+<html>
+    <head>
+        <title> LOGIN PAGE</title>
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+        <style>
+            body{
+                background-image:url(images/tisa.jpg);
+                background-repeat:no-repeat;
+
+            }
+ 
+
+       .container2{
+         border: 2px solid black;
+    height: 480px;
+    width: 450px;
+    box-shadow: 3px 2px 4px darkblue;
+    position: absolute;
+    left: 35%;
+    top:97px;
+}
+#userimage2 {
+    text-align: center;
+margin-left: -178px;
+margin-top: -5px;
+
+}
+#userimage2 img {
+
+    height: 93px;
+    width: 95px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 22px #552d66;
+    position: absolute;
+    top: 127px;
+    left: 182px;
+}
+#userimage2 img:hover{
+    cursor :pointer;
+}
+
+.userdetails2{
+   
+    height: 213px;
+    width: 246px;
+    position: absolute;
+    top: 250px;
+    left:103px;
+}
+.userdetails2 input{
+    height: 35px;
+    margin-top: -3px;
+    width: 209px;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding-left: 29px;
+    background-color: whitesmoke;
+}
+
+input[type=email]:focus{
+  outline: 2px solid skyblue;     /* oranges! yey */
+}
+
+input[type=password]:focus{
+  outline: 2px solid skyblue; ;  /* oranges! yey */
+}
+#sinup2{
+
+text-align:center;
+font-family: 'Slabo 27px', serif;
+text-shadow: 1px 2px 15px #2e2a2a;
+font-size: 16px;
+
+
+}
+.logo2{
+
+    text-align: center;
+    font-size: 54px;
+    margin-left: 5px;
+    margin-top: 36px;
+    font-size: 54px;
+    font-family: 'Kaushan Script', cursive;
+    word-spacing: 10px;
+    letter-spacing: 4px;
+    color: gray;
+    text-align: center;
+
+}
+.logo2:hover{
+    color:#552d66;
+}
+
+#submit{
+    color: black;
+    right: 10px;
+    position: absolute;
+    top: 70%;
+    height: 36px;
+    width: 104px;
+    border-radius: 6px;
+    border: 1px solid skyblue;
+    font-size:15px;
+
+}
+
+#submit:hover{
+    border:2px solid white;
+background-color: turquoise;
+cursor: pointer;
+font-size:15px;
+}
+
+        </style>
+<body onload="loading()">
+
+ 
+  <!-- Container 2-->
+  
+  <span class="container2">
+    
+    <p class="logo2"> LOGO </p>
+
+            <div id="userimage2">
+        <img src="images/userimage.jpeg">
+            </div>
+            
+    <div class="userdetails2" >
+        <div id="sinup2"> Sign In to continue</div>
+
+
+        <p><input type="email" placeholder = "Email" id="email1"></p>
+    <p><input type="password" placeholder = " Password" id="pass2" ></p>
+
+<div class =" submit" onclick="run()">
+    <button type="button" id ="submit" >Login</button>
+
+</div>
+         
+    
+
+
+  </span>
+  <script src="Login.js"></script>
+</body>
+    
+
+</html>

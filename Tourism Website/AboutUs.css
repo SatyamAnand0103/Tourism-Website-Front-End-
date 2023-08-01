@@ -1,0 +1,219 @@
+
+.containerfull{
+    overflow: hidden;
+    width: 1519px;
+    position: relative;
+    background-image: url(images/log1.jpg);
+    background-repeat: no-repeat;
+    height: 230vh;
+    margin-top: -7px;
+    margin-left: -8px;
+
+}
+    #topic {
+    display: block;
+    width: 479px;
+    margin: auto;
+    }
+    
+    #topic p {
+    display: block;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px #2e2a2a;
+    margin-top: 30px;
+    margin-bottom: 26px;
+    }
+    #topic p:hover{
+     transform: scale(1.1); 
+    }
+    
+    
+    
+    
+    #image img{
+        padding-bottom:6px;
+        padding-top:13px;
+        padding-left:30px;
+        padding-right:30px;
+        background-color:rgb(45, 39, 73);
+        height: 50px;
+    width: 157px;
+    float: left;
+    margin-top: -104px;
+    margin-left: 268px;
+    }
+    #image img:hover{
+        transform: scale(1.1);
+        cursor:pointer;
+    }
+    
+    
+    #links{
+        display :block;
+        margin:auto;
+        padding:8px;
+        text-align:center;
+    }
+    #links a{
+            font-size:17px;
+        margin:14px;
+        padding:6px;
+        font-family: 'Slabo 27px', serif;
+        text-decoration:none;
+    
+      }
+    
+    #links a:hover{
+            background-color: #004369;
+            color:white;
+            border-radius:40px;
+            transition: background-color 1s;
+            box-shadow: 3px 2px 4px darkcyan;
+    
+    }
+    .fade:focus,
+    .fade:active {
+    
+    background-color: black;
+    transition: none;
+    
+    }
+    
+    
+    .addings{
+        float: left;
+        text-align: center;
+        margin-left: 40px;
+        font-family: 'Dancing Script', cursive;
+        font-size: 18px;
+        word-spacing: 10px;
+        letter-spacing: 4px;
+    }
+    div.addings h3:hover{
+        cursor:pointer;
+         transform: scale(1.1); 
+    }
+    
+    .contactus{
+         
+        border:2px solid black;
+        margin: auto;
+        display: block;
+        text-align: center;
+        width: 287px;
+        letter-spacing: 2px;
+        font-size: 37px;
+        margin-top:170px;
+        text-shadow: 2px 2px 5px #2e2a2a;
+        border:3px rgb(34, 34, 86);
+        border-radius:20px;
+    
+    }
+    
+     .contactus p:hover{
+            transform: scale(1.1);
+            cursor:pointer;
+    
+    }
+    
+    .white{
+        border: 2px solid black;
+        height: 500px;
+        margin-top: 400px;
+        margin-right: -2px;
+    
+    }
+    .blue{
+    
+        float: left;
+        height: 1100px;
+        width: 483px;
+        background-color: #00BBF0;
+        margin-left: -10px;
+    }
+    .white2{
+        float: right;
+        height: 900px;
+        width: 1044px;
+        background-color: white;
+    }
+    .about{
+    
+        margin-top: 110px;
+        float: right;
+        margin-right: 86px;
+        font-size: 25px;
+        color: white;
+        font-family: 'Inter', sans-serif;
+    }
+    .about:hover{
+        transform: scale(1.1); 
+    }
+    .History{
+    
+        float: right;
+        margin-right: -136px;
+        margin-top: 187px;
+        color: whitesmoke;
+        font-family: 'Inter', sans-serif;
+    }
+    .History:hover{
+        color:aliceblue;
+        text-decoration:underline;
+    }
+    .white2 h2{
+        
+        margin-top: 109px;
+        float: left;
+        margin-left: 69px;
+        font-family: 'Inter', sans-serif;
+    }
+    
+    .white2 p{
+        
+        margin-top: 161px;
+        width: 745px;
+        margin-left: 69px;
+        color: grey;
+    
+    }
+    
+    .white2 p#white2{
+         
+        margin-top: 25px;
+        width: 745px;
+        margin-left: 69px;
+        color: grey;
+    
+    }
+    .white2 img{
+    
+        height: 247px;
+        width: 362px;
+        margin-top: 8px;
+        margin-left: 68px;
+    }
+    
+    .white2 p#sideby{
+        width: 317px;
+        margin-top: 7px;
+        float: right;
+        margin-right: 222px;
+    }
+    
+    .white2 p#side{
+        margin-top: 54px;
+    }
+    
+    .arrow img{
+    height: 30px;
+        width: 30px;
+        padding: 25px;
+        margin-top: -102px;
+        display: block;
+        float: right;
+    }
+    
+    

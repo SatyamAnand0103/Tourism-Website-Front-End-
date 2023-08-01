@@ -1,0 +1,247 @@
+
+.containerfull{
+    overflow: hidden;
+    width: 1519px;
+    position: relative;
+    background-image: url(images/log1.jpg);
+    background-repeat: no-repeat;
+    height: 208vh;
+    margin-top: -7px;
+    margin-left: -8px;
+
+}
+ #topic {
+    display: block;
+    width: 479px;
+    margin: auto;
+}
+    
+    #topic p {
+    display: block;
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 2px 2px 5px #2e2a2a;
+    margin-top: 30px;
+    margin-bottom: 26px;
+}
+    #topic p:hover{
+     transform: scale(1.1); 
+    }
+    
+
+
+    
+    #image img{
+        padding-bottom:6px;
+        padding-top:13px;
+        padding-left:30px;
+        padding-right:30px;
+        background-color:rgb(45, 39, 73);
+        height: 50px;
+    width: 157px;
+    float: left;
+    margin-top: -104px;
+    margin-left: 268px;
+    }
+    #image img:hover{
+        transform: scale(1.1);
+        cursor:pointer;
+    }
+
+    
+    #links{
+        display :block;
+        margin:auto;
+        padding:8px;
+        text-align:center;
+    }
+   #links a{
+            font-size:17px;
+        margin:14px;
+        padding:6px;
+        font-family: 'Slabo 27px', serif;
+        text-decoration:none;
+    
+      }
+
+#links a:hover{
+            background-color: #004369;
+            color:white;
+            border-radius:40px;
+            transition: background-color 1s;
+            box-shadow: 3px 2px 4px darkcyan;
+    
+}
+.fade:focus,
+.fade:active {
+
+  background-color: black;
+  transition: none;
+
+}
+.addings{
+    float: left;
+    text-align: center;
+    margin-left: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    word-spacing: 10px;
+    letter-spacing: 4px;
+}
+div.addings h3:hover{
+    cursor:pointer;
+     transform: scale(1.1); 
+}
+
+.contactus{
+     
+    border:2px solid black;
+    margin: auto;
+    display: block;
+    text-align: center;
+    width: 287px;
+    letter-spacing: 2px;
+    font-size: 37px;
+    margin-top:170px;
+    text-shadow: 2px 2px 5px #2e2a2a;
+    border:3px rgb(34, 34, 86);
+    border-radius:20px;
+
+}
+
+ .contactus p:hover{
+        transform: scale(1.1);
+        cursor:pointer;
+
+}
+
+.white{
+    width: 1523px;
+    height: 872px;
+    margin: auto;
+    display: block;
+    margin-left: 0px;
+    background-color: white;
+    margin-top: 400px;
+
+}
+.white h2{
+    margin-left:300px;
+    padding-top: 28px;
+}
+.white h5{
+    margin-left:300px;
+    height:13px;
+    width:79px;
+}
+
+
+.white input{
+    height: 32px;
+    width: 230px;
+    margin-left: 300px;
+    padding-left: 20px;
+
+
+
+}
+.white #second{
+    
+    margin-top: -32px;
+    float: right;
+    margin-right: 583px;
+}
+
+
+
+.white #third input{
+    margin-top: -54px;
+    float: right;
+    margin-right: 407px;
+
+}
+#email input{
+width:789px;
+}
+textarea{
+    margin-left:300px;
+    height:100px;
+width:809px;
+}
+
+.button{
+
+    margin-top:20px;
+    margin-left:20px;
+}
+.button input{
+    border:2px solid white;
+    font-size: 16px;
+    color: white;
+    border-radius: 20px;
+    width: 163px;
+    height: 41px;
+    margin-left: 580px;
+    background-color: #ffe01a;
+}
+.contactinfo{
+    border: 2px solid black;
+    margin-top: 71px;
+    height: 170px;
+    padding-top: 35px;
+    padding-left: 307px;
+    
+
+}
+.contact{
+    
+    height: 50px;
+    margin-top: 50px;
+    margin-left: 303px;
+    font-size: 20px;
+    width: 211px;
+}
+.contact1{
+    
+    width: 205px;
+    margin-left: 303px;
+    display: inline-block;
+
+}
+
+    .contact1 img{
+        height:28px;
+        width:28px;
+    
+}
+
+.contact2 img{
+    height: 28px;
+    width: 28px;
+    margin-left: 40px;
+}
+.contact2{
+    margin-left:12px;
+}
+
+
+
+.contact3 img{
+    height: 28px;
+    width: 28px;
+    margin-left: 40px;
+}
+.contact3{
+    margin-left:12px;
+}
+
+
+.arrow img{
+height: 30px;
+    width: 30px;
+    padding: 25px;
+    margin-top: -102px;
+    display: block;
+    float: right;
+}
